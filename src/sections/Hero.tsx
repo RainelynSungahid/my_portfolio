@@ -56,15 +56,16 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="hero-button hero-button-filled"
             >
-              Get a project?
+              Hire me?
             </motion.a>
             <motion.a
-              href="#education"
+              href="/RESUME-SUNGAHID.pdf"
+              download="Rainelyn_Sungahid_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="hero-button hero-button-outlined"
             >
-              My Resume
+              Download my Resume
             </motion.a>
           </motion.div>
 
