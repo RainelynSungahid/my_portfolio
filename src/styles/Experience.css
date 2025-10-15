@@ -1,0 +1,81 @@
+.experience-section {
+  background: linear-gradient(to bottom, #111827, #000000);
+}
+
+.experience-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .experience-title {
+    font-size: 3rem;
+  }
+}
+
+.experience-title-orange {
+  color: #ff6b35;
+}
+
+.experience-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.experience-job-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.experience-company {
+  color: #ff6b35;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.experience-type {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.experience-duration {
+  color: #d1d5db;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.experience-responsibilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-responsibility-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.experience-check-icon {
+  color: #ff6b35;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  flex-shrink: 0;
+}

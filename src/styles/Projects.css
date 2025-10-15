@@ -1,0 +1,92 @@
+.projects-section {
+  background: linear-gradient(to bottom, #111827, #000000);
+}
+
+.projects-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .projects-title {
+    font-size: 3rem;
+  }
+}
+
+.projects-title-orange {
+  color: #ff6b35;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.project-link-icon {
+  color: #ff6b35;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.project-link-icon:hover {
+  transform: scale(1.1);
+}
+
+.project-date {
+  color: #ff6b35;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-role {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-description {
+  color: #d1d5db;
+  margin-bottom: 1rem;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tech-tag {
+  background-color: #374151;
+  color: #ff6b35;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 107, 53, 0.3);
+}

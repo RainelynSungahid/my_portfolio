@@ -1,0 +1,93 @@
+.education-section {
+  background-color: #000000;
+}
+
+.education-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .education-title {
+    font-size: 3rem;
+  }
+}
+
+.education-title-orange {
+  color: #ff6b35;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .education-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.education-degree {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.education-institution {
+  color: #ff6b35;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.education-duration {
+  color: #9ca3af;
+  margin-bottom: 0.75rem;
+}
+
+.education-details {
+  color: #d1d5db;
+}
+
+.education-organizations {
+  margin-top: 3rem;
+}
+
+.education-org-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.education-org-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .education-org-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.education-org-card {
+  background-color: rgba(31, 41, 55, 0.5);
+  border: 1px solid #374151;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: border-color 0.3s;
+}
+
+.education-org-card:hover {
+  border-color: #ff6b35;
+}
+
+.education-org-text {
+  color: #d1d5db;
+}
