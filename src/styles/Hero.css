@@ -23,13 +23,37 @@
   }
 }
 
+@media (max-width: 640px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+  }
+  .hero-image-container {
+    order: -1; 
+  }
+  .hero-content {
+    order: 0; 
+  }
+  .hero-title {
+    font-size: 2.5rem !important;
+  }
+  .hero-subtitle {
+    font-size: 1.25rem !important; 
+  }
+  .hero-image {
+    width: 12rem; 
+    height: 12rem;
+  }
+}
+
 .hero-content {
   display: flex;
   flex-direction: column;
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 4rem !important;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -48,7 +72,7 @@
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   color: #9ca3af;
   margin-bottom: 2rem;
 }

@@ -1,17 +1,23 @@
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaGithub, FaChevronDown } from 'react-icons/fa';
-import { SiCplusplus, SiArduino, SiFirebase } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaPhp, FaLaravel, FaGithub, FaFigma, FaChevronDown } from 'react-icons/fa';
+import { SiDotnet, SiCplusplus, SiArduino, SiFirebase } from 'react-icons/si';
 import Section from '../components/Section';
 import '../styles/Hero.css';
 
 const Hero = () => {
   const skills = [
+    { name: 'HTML', icon: <FaHtml5 /> },
+    { name: 'CSS', icon: <FaCss3Alt /> },
+    { name: 'JavaScript', icon: <FaNodeJs /> },
     { name: 'React', icon: <FaReact /> },
-    { name: 'Node.js', icon: <FaNodeJs /> },
     { name: 'C++', icon: <SiCplusplus /> },
+    { name: 'PHP', icon: <FaPhp /> },
+    { name: 'Laravel', icon: <FaLaravel /> },
+    { name: '.NET', icon: <SiDotnet /> },
     { name: 'Arduino', icon: <SiArduino /> },
     { name: 'Firebase', icon: <SiFirebase /> },
     { name: 'GitHub', icon: <FaGithub /> },
+    { name: 'Figma', icon: <FaFigma /> },
   ];
 
   return (
@@ -59,7 +65,7 @@ const Hero = () => {
               Hire me?
             </motion.a>
             <motion.a
-              href="/RESUME-SUNGAHID.pdf"
+              href="/RAINELYN_SUNGAHID_RESUME.pdf"
               download="Rainelyn_Sungahid_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

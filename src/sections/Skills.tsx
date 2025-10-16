@@ -6,26 +6,29 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: ['C', 'C++', 'JavaScript', 'C#', 'PHP', 'Python', 'HTML', 'CSS', 'SQL'],
+      skills: ['C', 'C++', 'JavaScript', 'C#', 'PHP', 'Python', 'HTML', 'CSS', 'TypeScript'],
     },
     {
       title: 'Frameworks & Tools',
-      skills: ['.NET', 'ReactJS', 'Firebase', 'Node.js', 'Next.js', 'AutoCAD', 'Arduino IDE', 'Git', 'GitHub'],
+      skills: ['.NET', 'ReactJS', 'Firebase', 'Laravel', 'Node.js', 'Next.js', 'Tailwind CSS', 'MySQL', 'MariaDB', 'Arduino IDE', 'Git', 'GitHub', 'AutoCAD', 'Flutter'],
     },
     {
       title: 'Software Development',
-      skills: ['Object-Oriented Programming (OOP)', 'Full Stack Development (Front-End & Back-End)'],
+      skills: ['Object-Oriented Programming (OOP)', 'Full Stack Development (Front-End & Back-End)', 'Figma', 'UI/UX Design Fundamentals'],
     },
     {
       title: 'Embedded Systems',
-      skills: ['Basic Arduino Projects', 'Sensor Integration & Circuit Design'],
+      skills: ['Basic Arduino & ESP32 Programming', 'Sensor Integration & Circuit Design'],
+    },
+    {
+      title: 'Software Quality Testing',
+      skills: ['Lighthouse (Performance Auditing)', 'Manual Testing (Usability)', 'Automated Testing with Python', 'DevOps Bug Documentation'],
     },
     {
       title: 'Soft Skills',
       skills: [
         'Problem-Solving & Critical Thinking',
         'Leadership & Team Collaboration',
-        'UI/UX Design Fundamentals',
       ],
     },
   ];

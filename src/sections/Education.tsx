@@ -9,7 +9,7 @@ const Education = () => {
       degree: 'BS Computer Engineering',
       institution: 'Cebu Institute of Technology - University',
       duration: '2022 – Present',
-      details: 'Expected 2026 • GPA: 4.67 (1st year to 3rd year 1st semester) • DOST Scholar, Cebu City Scholar, Ancop Scholar',
+      details: 'Expected 2026 • GPA: 4.58 (1st year to 3rd year) • DOST Scholar, Cebu City Scholar, Ancop Scholar',
     },
     {
       degree: 'Science, Technology, Engineering and Mathematics',
@@ -20,10 +20,11 @@ const Education = () => {
   ];
 
   const organizations = [
-    'GDGOC CIT-U (2024–Present) - Member',
-    'DOST SA CIT-U (2022–Present) - Creatives Committee Member',
-    'Honor Society CIT-U (2024–Present) - Email Administrator - Committee on Rules and Regulations',
-    'ICPEP.SE CIT-U Chapter (2024–Present) - Secretary - Committee on External Affairs',
+    'Google Developers Group on Campus CIT-U Chapter (2024–Present) - Member',
+    'DOST SA CIT-U (2022–Present) - Creatives Committee Member & Member',
+    'Honor Society CIT-U (2024–Present) - Email Administrator & Secretary of Attendance (Committee on Rules and Regulations)',
+    'ICPEP.SE CIT-U Chapter (2024–Present) - Member & Secretary (Committee on External Affairs)',
+    'Couples For Christ (2010–Present) - Youth For Christ Member & Kids For Christ ROCK Facilitator',
   ];
 
   return (

@@ -2,15 +2,26 @@
   background: linear-gradient(to bottom, #111827, #000000);
 }
 
-.projects-title {
+.soft-projects-title {
   font-size: 2.25rem;
   font-weight: bold;
   margin-bottom: 3rem;
   text-align: center;
 }
 
+.hard-projects-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-top: 9rem;
+}
+
 @media (min-width: 768px) {
-  .projects-title {
+  .soft-projects-title {
+    font-size: 3rem;
+  }
+  .hard-projects-title {
     font-size: 3rem;
   }
 }
@@ -40,13 +51,17 @@
 .project-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 0.75rem;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  min-height: 3rem;
 }
 
 .project-title {
   font-size: 1.25rem;
   font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .project-link-icon {

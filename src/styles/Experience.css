@@ -28,9 +28,11 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.experience-title {
+  flex-grow: 1;
   margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .experience-job-title {

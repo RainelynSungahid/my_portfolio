@@ -35,7 +35,7 @@ const Experience = () => {
           {experiences.map((exp, idx) => (
             <Card key={idx}>
               <div className="experience-header">
-                <div>
+                <div className='experience-title'>
                   <h3 className="experience-job-title">{exp.title}</h3>
                   <p className="experience-company">{exp.company}</p>
                   <p className="experience-type">{exp.type}</p>

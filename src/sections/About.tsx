@@ -11,24 +11,24 @@ const About = () => {
     {
       icon: <FaCode />,
       title: 'Software Development',
-      description: 'Full-stack development with React, Node.js, and modern frameworks',
+      description: 'Full-stack development with React, Node.js, Laravel, and modern frameworks',
     },
     {
       icon: <FaMobileAlt />,
       title: 'Hardware Integration',
-      description: 'Embedded systems, Arduino projects, and sensor integration',
+      description: 'Embedded systems, Arduino & ESP32 projects, and sensor integration',
     },
     {
       icon: <FaServer />,
       title: 'System Design',
-      description: 'Architecture design, circuit design, and deployment',
+      description: 'Circuit design, and deployment',
     },
   ];
 
   const stats = [
     { label: 'Completed Projects', value: '5+' },
-    { label: 'Current GPA', value: '4.67' },
-    { label: 'Organizations', value: '4' },
+    { label: 'Current GPA', value: '4.58' },
+    { label: 'Organizations', value: '5' },
   ];
 
   return (
