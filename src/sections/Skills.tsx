@@ -10,15 +10,15 @@ const Skills = () => {
     },
     {
       title: 'Frameworks & Tools',
-      skills: ['.NET', 'ReactJS', 'Firebase', 'Laravel', 'Node.js', 'Next.js', 'Tailwind CSS', 'MySQL', 'MariaDB', 'Arduino IDE', 'Git', 'GitHub', 'AutoCAD', 'Flutter'],
+      skills: ['.NET', 'ReactJS', 'Firebase', 'Laravel', 'Node.js', 'Next.js', 'Tailwind CSS', 'MySQL', 'MariaDB', 'Arduino IDE', 'Git', 'GitHub', 'AutoCAD', 'Flutter', 'Figma'],
     },
     {
       title: 'Software Development',
-      skills: ['Object-Oriented Programming (OOP)', 'Full Stack Development (Front-End & Back-End)', 'Figma', 'UI/UX Design Fundamentals'],
+      skills: ['Object-Oriented Programming (OOP)', 'Full Stack Development (Front-End & Back-End)', 'UI/UX Design Fundamentals'],
     },
     {
       title: 'Embedded Systems',
-      skills: ['Basic Arduino & ESP32 Programming', 'Sensor Integration & Circuit Design'],
+      skills: ['Basic Arduino & ESP32 Programming', 'Sensor Integration & Circuit Design', 'AWS IoT Core & MQTT'],
     },
     {
       title: 'Software Quality Testing',

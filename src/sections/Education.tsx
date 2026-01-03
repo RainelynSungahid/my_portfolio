@@ -9,7 +9,7 @@ const Education = () => {
       degree: 'BS Computer Engineering',
       institution: 'Cebu Institute of Technology - University',
       duration: '2022 – Present',
-      details: 'Expected 2026 • GPA: 4.58 (1st year to 3rd year) • DOST Scholar, Cebu City Scholar, Ancop Scholar',
+      details: 'Expected 2026 • GPA: 4.58 (1st year to 4th year 1st sem) • DOST Scholar, Cebu City Scholar, Ancop Scholar',
     },
     {
       degree: 'Science, Technology, Engineering and Mathematics',

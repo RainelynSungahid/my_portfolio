@@ -12,6 +12,7 @@ const Projects = () => {
       role: 'Full Stack Developer & Logo Designer',
       description: 'Partnered with team members to execute end-to-end development, contributing equally to both the front-end user interface and back-end logic and API design. Designed the official DisMap brand logo, contributing a key element to the project\'s visual identity and overall branding strategy.',
       tech: ['HTML', 'JavaScript', 'Tailwind CSS', 'Laravel', 'MariaDB', 'Vite.js', 'Flutter (Dart)'],
+      link: 'https://dismap.yottahive.com',
     },
     {
       title: 'FurWell',
@@ -47,6 +48,11 @@ const Projects = () => {
   ];
 
   const hardwareProjects = [
+    {
+      title: 'IoT Smart Parcel Box',
+      date: 'Aug 2025 – Nov 2025',
+      description: 'Built an ESP32-based IoT hardware system integrated with AWS IoT Core. Implemented sensors, servo locking, OLED status display, and cloud-based alerts. Used MQTT, IoT Rules, and Device Shadow for real-time monitoring and automation.',
+    },
     {
       title: 'Touchless Water Tap',
       date: 'Feb 2025 – April 2025',
@@ -98,7 +104,7 @@ const Projects = () => {
         </div>
 
         <h2 className="hard-projects-title mt-12">
-          Hardware <span className="projects-title-orange">Projects</span>
+          Hardware-Software <span className="projects-title-orange">Projects</span>
         </h2>
 
         <div className="projects-grid">
